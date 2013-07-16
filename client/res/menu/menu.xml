@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item android:id="@+id/preference"
+        android:title="Setup Preference" />
+    <item android:id="@+id/refresh"
+        android:title="Refresh List" />
+    <item android:id="@+id/diarygen"
+        android:title="Extract New Diary" />
+    <item android:id="@+id/quit"
+        android:title="Exit" />
+</menu>

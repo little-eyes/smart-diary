@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/locationedit_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:text="Input the address name" 
+                  android:id="@+id/addressview" 
+                  android:textSize="6pt"
+                  android:layout_marginBottom="10dp"
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content">
+    </TextView>
+    <EditText android:layout_height="wrap_content" 
+                  android:text="" 
+                  android:layout_width="match_parent" 
+                  android:id="@+id/addressedit"
+                  android:scrollbars="vertical"
+                  android:minLines="4">                  
+    </EditText>
+    <LinearLayout android:id="@+id/makedecision" 
+                          android:layout_height="wrap_content" 
+                          android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                      	  android:gravity="center_horizontal">
+        <Button android:text="OK" 
+                        android:id="@+id/button_ok" 
+                        android:layout_width="120dp" 
+                        android:layout_height="wrap_content">
+                        </Button>
+        <Button android:text="Cancel" 
+                        android:id="@+id/button_cancel" 
+                        android:layout_width="120dp" 
+                        android:layout_height="wrap_content">
+                        </Button>                
+	 </LinearLayout>
+</LinearLayout>

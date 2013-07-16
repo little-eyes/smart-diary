@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">SmartDiary</string>
+    <string-array name="preference_array">
+    	<item>Choose...</item>
+        <item>Sports Fan</item>
+        <item>Social Guy</item>
+        <item>Quiet Man</item>
+        <item>Busy Student</item>
+    </string-array>
+
+</resources>
